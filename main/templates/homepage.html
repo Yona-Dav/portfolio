@@ -11,11 +11,11 @@
     <article class='about text-center pt-5 mt-5 mb-5'>
         <div class="container d-flex justify-content-center">
             <div class="row align-items-center" >
-                <div class="col-md-4 col-12">
+                <div class="col-lg-4 col-md-12 col-12">
                     <img class="img-fluid  rounded-3 border border-5" src="{% static 'main/image/yona_picture.jpg' %}" width=200vw height="400vh">
                 </div>
 
-                <div class="col-md-8 col-12 fullstack_text">
+                <div class="col-lg-8 col-12 col-md-12  fullstack_text">
                     <h1>Hey , I'm Yona !</h1>
                     <h2>I'm a Full Stack-Web Developer</h2>
                     <br><br>
@@ -106,14 +106,14 @@
         <div class="row">
             <h2 class="text-center fs-1 pb-3" style="color:white">CONTACT</h2>
             <p class="text-center fs-5 pb-3" style="color:white">Have a question or want to work together?</p>
-            <div class="col-md-4 col-12 d-flex flex-nowrap align-items-center justify-content-center">
+            <div class="col-lg-4 col-12 d-flex flex-nowrap align-items-center justify-content-center">
                 <div class="contact-box text-center " style="color:white">
                     <p><a href="mailto:yona.bohbot@gmail.com" class="nav-link px-2" style="color:white"><i class="far fa-envelope pe-3 fa-2x "style="color:white"></i>yona.bohbot@gmail.com</a></p>
                     <p class="nav-item"><a href="https://github.com/Yona-Dav" class="nav-link px-2 "><i class="fab fa-github pe-3 fa-2x" style="color:white"></i>  </a></p>
                     <p class="nav-item"><a href="https://www.linkedin.com/in/yona-david-a3865620b/" class="nav-link px-2 fa-2x" style="color:white" ><i class="fab fa-linkedin-in pe-3 "></i></a></p>
                 </div>
             </div>
-            <div class="col-md-8 col-12">
+            <div class="col-lg-8 col-12">
                 <form class='ms-5 me-5' method="post">
                     {% csrf_token %}
                     {% for field in form %}
