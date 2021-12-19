@@ -1,6 +1,6 @@
 .navcolor{background-color: #0e100f;}
 
-.homepage_body{background: url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80) no-repeat center center fixed;
+.homepage_body{background: url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:bottom}
@@ -15,4 +15,6 @@
 
 .btn-color-2{background-color:white;
 color:#0e100f}
+
+
 
