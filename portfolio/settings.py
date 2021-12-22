@@ -131,6 +131,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 RECAPTCHA_DOMAIN = 'www.recaptcha.net'
 RECAPTCHA_REQUIRED_SCORE = 0.85
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
 import django_heroku
 import os
 
